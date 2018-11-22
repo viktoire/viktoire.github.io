@@ -2,27 +2,49 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Head</title>
+	<title>Document</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+
+	<link rel="stylesheet" href="reset.css">
 	<link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-	<div class="bar">
-		<ul class="menu">
-			<li>
-				<img src="demoShop/icon (3).png" alt="Logo" title="Logo">
-			</li>
-			<li class="borme">Home</li>
-			<li class="borme">Products</li>
-			<li class="borme">Payment</li>
-			<li class="borme">Shipping</li>
-			<li class="borme" >
-				<div id="search"><input type="search" placeholder="search" name="search" aria-label="search">
-				<button><img src="demoShop/icon (4).png"></button></div>
-			</li>
-			<li>
-				<img src="demoShop/icon (1).png">
-			</li>
-		</ul>
-	</div>
+	<header class="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<div class="logo">
+						<a href="">
+							<img src="images/logo.png" alt="">
+						</a>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<nav>
+						<ul class="menu">
+							<li><a href="">Home</a></li>
+							<li><a href="">Products</a></li>
+							<li><a href="">Shipping</a></li>
+							<li><a href="">Payment</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="col-md-3">
+					<div class="last">
+						<div id="search">
+							<input type="search" placeholder="search" name="search" aria-label="search">
+				        	<button><img src="demoShop/icon (4).png"></button>
+				    	</div>
+				    	<div class="count">
+				    		<img src="demoShop/icon (1).png">
+				    	</div>
+				    </div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<main class="main">main</main>
+	<footer class="footer">footer</footer>
 </body>
 </html>
